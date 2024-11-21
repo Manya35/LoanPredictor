@@ -38,9 +38,39 @@ Loan Predictor is a web-based application that predicts loan approval status bas
    cd backend
    ```
 2. Install required Python libraries:
-```bash
-pip install flask flask-cors pandas scikit-learn
-```
+   ```bash
+   pip install flask flask-cors pandas scikit-learn
+   ```
 3. Start the Flask server:
+   ```bash
+   python app.py
+   ```
+### Frontend Setup
+
+1. Navigate to the frontend directory:
 ```bash
-python app.py
+   cd frontend
+```
+2. Install dependencies:
+```bash
+   npm install
+```
+3. Start the React app:
+```bash
+   npm start
+```
+4. Accessing the Application
+ Open your web browser and navigate to http://localhost:3000.
+### File Structure
+```bash
+.
+├── backend/
+│   ├── app.py           # Flask API code
+│   ├── loan_model.pkl   # Pre-trained machine learning model
+│   └── loan_data_set.csv # Dataset (optional, for retraining)
+├── frontend/
+│   ├── src/
+│   │   └── App.js        # Main React component
+│   └── public/
+│       └── index.html    # Entry point for the React app
+└── README.md            # Project documentation
