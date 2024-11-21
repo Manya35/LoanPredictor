@@ -27,7 +27,7 @@ Loan Predictor is a web-based application that predicts loan approval status bas
 2. The form data is sent to the Flask backend through a POST request.
 3. The backend loads the pre-trained Random Forest model and makes predictions.
 4. The prediction result (Approved or Rejected) is displayed on the frontend.
-
+![alt text](https://drive.google.com/file/d/1vMH79x-rvWsr12F09g3wFoCI74I0KvZ3/view?usp=sharing)
 ## Setup and Installation
 
 ### Prerequisites
