@@ -1,3 +1,7 @@
+# Research Project
+## Python and Machine Learning Internship, IGDTUW
+### Prediction for Loan Approval using Machine Learning Algorithms
+
 # Loan Predictor
 
 Loan Predictor is a web-based application that predicts loan approval status based on user input. It uses a machine learning model deployed through a Flask API and provides an interactive frontend built with React.
